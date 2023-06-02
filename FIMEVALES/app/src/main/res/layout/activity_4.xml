@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoverde"
+    tools:context=".Activity4">
+
+    <Button
+        android:id="@+id/logoutbtn"
+        android:layout_width="158dp"
+        android:layout_height="64dp"
+        android:backgroundTint="#07770C"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Cerrar Sesión"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/showemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/allerta"
+        android:text="@string/textview"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+
+    <RelativeLayout
+        android:layout_width="348dp"
+        android:layout_height="109dp"
+        android:background="@drawable/shadowmain"
+        android:padding="16dp"
+        app:circularflow_radiusInDP="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.173">
+
+        <ImageView
+            android:id="@id/item_image1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="30dp"
+            app:srcCompat="@drawable/food"
+            android:contentDescription="@string/todo" />
+
+        <Button
+            android:id="@+id/Menu"
+            android:layout_width="187dp"
+            android:layout_height="87dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="15dp"
+            android:layout_toEndOf="@+id/item_image1"
+            android:backgroundTint="#7BEF7F"
+            android:fontFamily="sans-serif-medium"
+            android:text="Menú de la cafetería"
+            android:textColor="#040404"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="348dp"
+        android:layout_height="109dp"
+        android:background="@drawable/shadowmain"
+        android:padding="16dp"
+        app:circularflow_radiusInDP="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.409">
+
+        <ImageView
+            android:id="@id/item_image2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="30dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/vale" />
+
+        <Button
+            android:id="@+id/QrVales"
+            android:layout_width="187dp"
+            android:layout_height="87dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="15dp"
+            android:layout_toEndOf="@+id/item_image2"
+            android:backgroundTint="#7BEF7F"
+            android:fontFamily="sans-serif-medium"
+            android:text="Vales de Comida"
+            android:textColor="#040404"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="348dp"
+        android:layout_height="109dp"
+        android:background="@drawable/shadowmain"
+        android:padding="16dp"
+        app:circularflow_radiusInDP="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.654">
+
+        <ImageView
+            android:id="@id/item_image3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="30dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/recetas" />
+
+        <Button
+            android:id="@+id/Recetas"
+            android:layout_width="187dp"
+            android:layout_height="87dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="15dp"
+            android:layout_toEndOf="@+id/item_image3"
+            android:backgroundTint="#7BEF7F"
+            android:fontFamily="sans-serif-medium"
+            android:text="Recetas"
+            android:textColor="#040404"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

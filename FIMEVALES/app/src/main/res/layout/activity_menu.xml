@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoverde"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="MENÚ"
+        android:textColor="#FFFFFF"
+        android:textSize="54sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.072" />
+
+    <Button
+        android:id="@+id/btndesayuno"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#7BEF7F"
+        android:fontFamily="sans-serif-black"
+        android:text="Desayuno"
+        android:textColor="#065509"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/btncomida"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <Button
+        android:id="@+id/btncomida"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#7BEF7F"
+        android:fontFamily="sans-serif-black"
+        android:text="Comida"
+        android:textColor="#065509"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/btncena"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btndesayuno" />
+
+    <Button
+        android:id="@+id/btncena"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#7BEF7F"
+        android:fontFamily="sans-serif-black"
+        android:text="Cena"
+        android:textColor="#065509"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btncomida"
+        app:layout_constraintVertical_bias="0.368" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

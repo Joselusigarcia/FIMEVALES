@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "699538027626",
+    "project_id": "fimevales",
+    "storage_bucket": "fimevales.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699538027626:android:92f78d2fb0a0b9e0bf0613",
+        "android_client_info": {
+          "package_name": "com.example.fimevales"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699538027626-rua7kujk07rkhlsu3k2plieod09mhvtq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCttaoQctNs6DipUoUAngrxYOb2QgdP7Sc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699538027626-rua7kujk07rkhlsu3k2plieod09mhvtq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
